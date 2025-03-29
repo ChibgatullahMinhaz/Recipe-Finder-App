@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import reactLogo from "../assets/react.svg";
 import { Seachbox } from "./Seachbox";
 export const Navber = () => {
   const [theme, setTheme] = useState(false);
@@ -15,11 +14,8 @@ export const Navber = () => {
   };
   return (
     <div className="p-4 shadow-2xl">
-      <header className={
-        theme ?  'dark' :'light' 
-    }>
+      <header className={theme ? "dark" : "light"}>
         <nav className="flex justify-between items-center">
-          <img src={reactLogo} alt="logo" />
           <Seachbox></Seachbox>
           <button className="" onClick={handleTheme}>
             {theme ? "Light Mode" : "Dark Mode"}
