@@ -5,7 +5,7 @@ export const Seachbox = () => {
     <div>
       <input
         type="search"
-        className="input w-full placeholder:text-yellow-300 text-black"
+        className="input w-full text-black"
         placeholder="Serach......"
       />
     </div>

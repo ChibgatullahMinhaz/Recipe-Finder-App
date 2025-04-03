@@ -1,15 +1,12 @@
-import './App.css'
-import { Navber } from './Component/Navber'
-import { Shorten } from './Component/shorten/Shorten'
+import "./App.css";
+import { Maincontent } from "./Component/Maincontent";
 
 function App() {
-
   return (
     <>
-    <Navber></Navber>
-    <Shorten></Shorten>
+      <Maincontent></Maincontent>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -16,8 +16,9 @@ export const Navber = () => {
     <div className="p-4 shadow-2xl">
       <header className={theme ? "dark" : "light"}>
         <nav className="flex justify-between items-center">
+          <h1 className="font-bold text-3xl ">Recipe Finder</h1>
           <Seachbox></Seachbox>
-          <button className="" onClick={handleTheme}>
+          <button onClick={handleTheme}>
             {theme ? "Light Mode" : "Dark Mode"}
           </button>
         </nav>
