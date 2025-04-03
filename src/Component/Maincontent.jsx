@@ -4,7 +4,7 @@ import { Home } from './Home'
 
 export const Maincontent = () => {
   return (
-    <div >
+    <div className='space-y-9' >
         <Navber></Navber>
         <Home></Home>
     </div>
