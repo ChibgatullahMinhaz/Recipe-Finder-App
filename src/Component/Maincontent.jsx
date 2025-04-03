@@ -4,7 +4,7 @@ import { Home } from './Home'
 
 export const Maincontent = () => {
   return (
-    <div>
+    <div >
         <Navber></Navber>
         <Home></Home>
     </div>

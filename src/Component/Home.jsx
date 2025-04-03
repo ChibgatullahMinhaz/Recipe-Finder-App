@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Category } from './Category'
 
 export const Home = () => {
-    const [category, setCategory]=useState([])
-    useEffect(()=>{
-
-    },[])
+  
   return (
     <div>
         <Category></Category>
